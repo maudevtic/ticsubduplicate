@@ -1,0 +1,75 @@
+.text11,
+.text12 {
+    font-size: 3vw !important;
+}
+
+.badge1:hover {
+    transform: scale(1.02);
+}
+
+.badge1:active {
+    transform: scale(0.9);
+}
+
+.boxShadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.centerLabel {
+    position: absolute;
+    text-align: center;
+    border: 3px solid green;
+}
+
+.photoMaxWidth {
+    max-width:19vw !important;
+    height:auto !important;
+}
+
+.index5padding-left {
+    z-index: 5;
+    padding-left:10% !important;
+}
+
+.index6font550 {
+    z-index: 6;
+    font-weight: 550;
+}
+
+.index6font700 {
+    z-index: 6;
+    font-weight: 700;
+}
+
+.index6 {
+    z-index: 6;
+}
+
+.index7 {
+    z-index: 7;
+    max-width: auto;
+    max-height: auto;
+    white-space: nowrap;
+}
+
+.index10 {
+    z-index: 10
+}
+
+.fontEm15 {
+    font-size:1.5em !important;
+}
+
+.maxWidth100 {
+    max-width:100%;
+}
+
+.colorblack {
+    color:black !important;
+}
+
+.colorblackfont550 {
+    color:black !important;
+    font-weight:550;
+}

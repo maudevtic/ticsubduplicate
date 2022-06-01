@@ -1,0 +1,122 @@
+
+body{
+font-family: 'Open Sans', sans-serif;
+width: 87%;
+height: 98%;   
+margin: 0 auto;    
+margin-top: 5px;
+
+
+
+}
+form{
+text-align: center;
+width:100%;
+flex-wrap: wrap;
+}
+
+form>section {
+display: block;
+padding: 0% 10% 0 10%;
+width: 100%;
+}
+.sky-form section {
+    margin-bottom: 0.9%;
+}label{
+    display: inline;
+}
+label > input{
+    width: 50%;
+}
+input{
+    width: 80%;  
+    color: #000;
+    border: 1px solid #ccc;
+    font-weight: 100;
+
+}textarea{
+    width: 100%;
+    height: 9.6vh;
+    border-radius: 30px;
+}
+
+textarea[name='kindnessWithin']{
+    padding-top: 10px !important;
+    padding-left: 1rem !important;
+    color: #000;
+}
+button{
+width: 100%;
+}
+
+.contactForm {
+background: #FFFFFF;
+box-sizing: border-box;
+border-radius: 48px;
+align-self: center;
+
+}
+.sky-form a {
+color: #FF9037;
+text-align: center;
+vertical-align: middle;
+}.sky-form .button{
+position: relative;
+display: flex;
+}
+.whiteHeader{
+
+padding: 2vh 0;
+background: #FFFFFF;
+height: 10.5%;
+border-radius: 30px 30px 0px 0px;
+text-align: center;
+}
+.contact_form{
+    width: 100%;
+    height: 100%;
+background: #FF9037;
+border-radius: 30px 30px 0 80px;
+
+align-self: right;
+filter: drop-shadow(-9px 12px 16px rgba(0, 0, 0, 0.43));
+}
+.text13 {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 1.5rem;
+line-height: 28px;
+letter-spacing: 0.035em;
+color: #FF811D;
+text-transform: uppercase;
+}
+.text15 {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: 1.2rem;
+color: #fff;
+text-align: center;
+letter-spacing: 0.055em;
+padding: 0 0 0 0;
+margin-block-start: 0;
+margin-block-end: 1.9em;
+}
+#btnSubmit {
+    border: hidden;
+border-radius: 58px;
+background: linear-gradient(
+180deg
+, #FFFFFF 0%, #E6E6E6 100%);
+box-shadow: 8.57253e-16px 14px 28px rgb(51 51 51 / 14%), inset -2.09551e-16px -3.42222px 3.42222px #dfdfdf, inset 2.09551e-16px 3.42222px 3.42222px #ffffff;
+width: 50%;
+height: 5vh;
+font-size: 1.1rem;
+float: right !important;
+color: #FF9037;
+text-align: center;
+vertical-align: middle;
+padding-bottom: 6%;
+margin:20px auto;
+}

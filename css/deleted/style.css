@@ -1,0 +1,21 @@
+html, body {
+height: 100%;
+position:relative;
+margin:0;
+}
+#container {
+min-height: 100%;
+
+position: relative;
+}
+
+#footer {
+position: relative;
+bottom:0;
+
+}
+
+.clearfooter {
+
+clear: both;
+}
